@@ -1,0 +1,46 @@
+[
+  {
+    "name": "layer_0",
+    "type": "Dense",
+    "config": {
+      "activation": "relu"
+    },
+    "weights": [
+      "W_0",
+      "b_0"
+    ]
+  },
+  {
+    "name": "layer_2",
+    "type": "Dense",
+    "config": {
+      "activation": "relu"
+    },
+    "weights": [
+      "W_2",
+      "b_2"
+    ]
+  },
+  {
+    "name": "layer_3",
+    "type": "Dense",
+    "config": {
+      "activation": "relu"
+    },
+    "weights": [
+      "W_3",
+      "b_3"
+    ]
+  },
+  {
+    "name": "layer_4",
+    "type": "Dense",
+    "config": {
+      "activation": "softmax"
+    },
+    "weights": [
+      "W_4",
+      "b_4"
+    ]
+  }
+]
